@@ -7,7 +7,7 @@ export PROJECT_ID=focal-baton-276315
 
 docker build -t gcr.io/${PROJECT_ID}/insurance-app:v1 .
 
-docker images
+# docker images
 
 gcloud auth configure-docker gcr.io
 
